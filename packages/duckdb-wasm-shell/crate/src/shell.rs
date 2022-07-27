@@ -661,7 +661,7 @@ impl Shell {
                 s.write(&format!(
                     concat!(
                         "\r\n",
-                        "{bold}Remote Parquet Scans:{normal}\r\n",
+                        "{bold}Remote PARQUET Scans:{normal}\r\n",
                         "  SELECT count(*) FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet';\r\n",
                         "  SELECT count(*) FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/customer.parquet';\r\n",
                         "  SELECT avg(c_acctbal) FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/customer.parquet';\r\n",
