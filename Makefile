@@ -29,6 +29,7 @@ CORES=$(shell grep -c ^processor /proc/cpuinfo 2>/dev/null || sysctl -n hw.ncpu)
 GTEST_FILTER=*
 JS_FILTER=
 
+DUCKDB_JSON=1
 EXTENSION_CACHE_DIR="${ROOT_DIR}/.ccache/extension"
 EXCEL_EXTENSION_CACHE_FILE="${EXTENSION_CACHE_DIR}/excel"
 JSON_EXTENSION_CACHE_FILE="${EXTENSION_CACHE_DIR}/json"
